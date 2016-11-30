@@ -1,0 +1,17 @@
+{
+  "name": "project-murilo",
+  "require": {
+    "php": ">=5.6"
+  },
+  "authors": [
+    {
+      "name": "Murilo Nascimento Schitz"
+    }
+  ],
+  "autoload":{
+    "psr-4": {
+      "PROJECT\\": "vendor/PROJECT/",
+      "App\\": "App/"
+    }
+  }
+}
